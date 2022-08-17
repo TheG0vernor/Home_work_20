@@ -13,7 +13,7 @@ class TestMovieService:
         assert len(movies) > 0, 'Ошибка'
 
     def test_get_one(self):
-        movie = self.movie_service.get_one(1)
+        movie = self.movie_service.get_one(2)
 
         assert movie is not None
         assert movie.id is not None
